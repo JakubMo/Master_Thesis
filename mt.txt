@@ -1,0 +1,43 @@
+1) TOOLS
+	a) muJava
+	b) PITest
+	c) Jester
+	d) Judy
+	e) Javalanche
+	f) The Major mutation framework
+	g) Mutator
+	h) Jumble
+	i) Proteum/Mothra
+
+2) METRICS
+2a) SOFT METRICS
+	a) license
+	b) state
+	c) test classes supported (jUnit...)
+	f) Test case handling - execution, inclusion/exclusion, activation/deactivation of test cases
+	g) Mutant handling - creation, selection, execution and analysis of mutants
+		- mutation operators: class mutation operators
+	h) Adequacy analysis - computation of mutation score, generation of statistical reports
+		- handling of equivalent mutants
+		- handling of live/nonterminating Mutants
+	i) Reducing test costs - Auto-generation of test cases and minimisation of test sets.
+		- do-fewer: selective-mutation, 
+		- do-smarter: parallelism, weak mutation	
+		- do-faster: compiler integrated mutation, mutant schema generation (MSG), SDL mutation
+	j) Unrestricted program size - Size of the target application should not be restricted by the tool.
+	k) Support for testing strategies - Different testing strategies (e.g. ordered application of mutation operators)
+should be supported by the tool.
+	l) Independent test configuration - The test configuration (e.g. test inputs, outputs and executing environment)
+should not be restricted by the tool.
+	
+	
+2b) HARD METRICS
+	a) performance
+	b) false-negative
+	c) false-positive
+	
+3) TESTING PROJECT
+	a) Joda-Time: 
+		- 179 java classes + 150 test classes (4181 test methods, test time - 15s)
+		- 73882 code LOCS + 71850 test LOCS
+		- jUnit 3.8.2
